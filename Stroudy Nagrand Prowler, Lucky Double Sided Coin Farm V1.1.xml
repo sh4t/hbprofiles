@@ -1,0 +1,115 @@
+<HBProfile>
+   <!--
+      PROFILE EXPECTATIONS:
+         * When using this profile, be certain to set the HonorBuddy bot to (select only one):
+                (*) Grind Buddy
+   
+         * This is not AFK-able and is still in testing please use at your own risk
+    -->
+   
+   <Name>Stroudy's Nagrand Raw Beast Hide</Name>
+   <MinLevel>90</MinLevel>
+   <MaxLevel>101</MaxLevel>
+   
+   <MinDurability>0.4</MinDurability>
+   <MinFreeBagSlots>1</MinFreeBagSlots>
+   
+   <MailGrey>false</MailGrey>
+   <MailWhite>true</MailWhite>
+   <MailGreen>true</MailGreen>
+   <MailBlue>true</MailBlue>
+   <MailPurple>true</MailPurple>
+   
+   <SellGrey>true</SellGrey>
+   <SellWhite>false</SellWhite>
+   <SellGreen>false</SellGreen>
+   <SellBlue>false</SellBlue>
+   <SellPurple>false</SellPurple>
+   
+   <TargetElites>false</TargetElites>	
+   
+   
+   <AvoidMobs>
+       <Mob Name="Slithershock Eel" Entry="83742" />
+       <Mob Name="Warsong Wolf Master" Entry="80253" />
+       <Mob Name="Direfang Alpha" Entry="86932" />
+       <Mob Name="Nagrand Warrider" Entry="81331" />
+       <Mob Name="Warleader Tome" Entry="81330" />
+       <Mob Name="Enslaved Earth Spirit" Entry="81409" />
+       <Mob Name="Pale Skulker" Entry="81308" />
+       <Mob Name="Pale Subjugator" Entry="81578" />
+       <Mob Name="Sabermaw Mystic" Entry="80056"  />
+       <Mob Name="Sabermaw Scarfang" Entry="78976" />
+       <Mob Name="Sabermaw Mauler" Entry="78990" />
+	   <Mob Name="Highmaul Archaeologian" Entry="82619" />
+	   <Mob Name="Raging Crusher" Entry="80144" />
+	   <Mob Name="Banthar" Entry="82119" />
+	   <Mob Name="Gnarlhoof the Rabid" Entry="82778" />
+	   <Mob Name="Flinthide" Entry="83483" />
+	   <Mob Name="Sabermaw Mauler" Entry="78990" />
+	   <Mob Name="Redclaw the Feral" Entry="82755" />
+   </AvoidMobs>
+   
+   
+   <Blackspots>
+   <Blackspot X="3145.317" Y="4376.697" Z="147.6679" Radius="32.79024" />
+   <Blackspot X="3181.249" Y="4276.255" Z="147.4796" Radius="20.84605" />
+   <Blackspot X="3164.958" Y="4325.091" Z="163.4873" Radius="13.08139" />
+   <Blackspot X="3050.432" Y="4338.143" Z="161.3063" Radius="7.558521" />
+   <Blackspot X="3027.759" Y="4492.209" Z="143.7246" Radius="81.25097" Height="13.84149" />
+   <Blackspot X="3174.523" Y="4487.54" Z="144.9045" Radius="96.9912" />
+   </Blackspots>
+   
+   
+   <Mailboxes>
+       <Mailbox X="3403.462" Y="5781.711" Z="37.6432" />
+   </Mailboxes>
+   
+   
+   <Vendors>
+       <Vendor Name="Tradesman Portanuus" Entry="81253" Type="Repair" X="3382.07" Y="5781.906" Z="37.64205" />
+   </Vendors>
+   
+   <GrindArea>
+        <RandomizeHotspots>false</RandomizeHotspots>
+		<TargetMinLevel>90</TargetMinLevel>
+		<TargetMaxLevel>101</TargetMaxLevel>
+		<Factions> 1711 </Factions> <!-- Nagrand Prowler -->
+   
+               <Hotspots>
+			   <Hotspot X="3144.328" Y="4453.557" Z="153.4555" />
+               <Hotspot X="3051.907" Y="4423.388" Z="154.6093" />
+               <Hotspot X="3002.684" Y="4352.886" Z="158.7579" />
+			   <Hotspot X="3011.08" Y="4390.245" Z="161.3886" />
+               <Hotspot X="3025.357" Y="4352.841" Z="155.9974" />
+               <Hotspot X="3039.799" Y="4316.352" Z="164.691" />
+               <Hotspot X="3075.622" Y="4297.776" Z="163.9436" />
+               <Hotspot X="3113.128" Y="4281.891" Z="166.7873" />
+               <Hotspot X="3152.109" Y="4270.954" Z="161.5696" />
+               <Hotspot X="3134.664" Y="4307.247" Z="164.7043" />
+               <Hotspot X="3094.14" Y="4305.301" Z="165.5196" />
+               <Hotspot X="3087.487" Y="4342.297" Z="151.8247" />
+               <Hotspot X="3124.4" Y="4359.84" Z="150.5975" />
+               <Hotspot X="3141.426" Y="4397.036" Z="149.6598" />
+               <Hotspot X="3110.318" Y="4423.772" Z="151.7604" />
+               <Hotspot X="3069.61" Y="4426.103" Z="151.342" />
+               <Hotspot X="3037.197" Y="4451.178" Z="147.2129" />
+               <Hotspot X="3006.42" Y="4476.861" Z="144.7137" />
+               <Hotspot X="2976.153" Y="4450.611" Z="149.9803" />
+               <Hotspot X="2978.551" Y="4410.15" Z="157.2125" />
+               <Hotspot X="3000.965" Y="4376.054" Z="159.7647" />
+               <Hotspot X="3020.1" Y="4339.789" Z="158.9697" />
+               <Hotspot X="3049.132" Y="4311.399" Z="166.307" />
+               <Hotspot X="3089.124" Y="4302.068" Z="164.786" />
+               <Hotspot X="3129.77" Y="4299.477" Z="164.5158" />
+               <Hotspot X="3153.134" Y="4266.68" Z="162.1884" />
+               <Hotspot X="3124.078" Y="4294.023" Z="165.4662" />
+               <Hotspot X="3084.221" Y="4303.25" Z="163.3325" />
+               <Hotspot X="3051.128" Y="4279.525" Z="168.3584" />
+               <Hotspot X="3050.571" Y="4242.836" Z="185.0267" />
+               <Hotspot X="3064.519" Y="4208.557" Z="200.6026" />
+               <Hotspot X="3104.301" Y="4205.266" Z="205.7231" />
+			   </Hotspots>
+   </GrindArea>
+   
+</HBProfile>

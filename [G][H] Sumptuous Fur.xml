@@ -1,0 +1,48 @@
+<HBProfile>
+	<Name>Ynoorbz Tailthrasher Grind</Name>
+	
+	<MinLevel>90</MinLevel>  
+	<MaxLevel>100</MaxLevel> 
+	
+	<MinDurability>0.3</MinDurability>
+	<MinFreeBagSlots>1</MinFreeBagSlots> 
+	
+	
+	<SellGrey>True</SellGrey>
+	<SellWhite>False</SellWhite>
+	<SellGreen>False</SellGreen>
+	<MailWhite>False</MailWhite>
+	<MailGreen>True</MailGreen>
+	<MailBlue>True</MailBlue>
+	<MailPurple>False</MailPurple>
+	
+	<Mailboxes>
+	</Mailboxes>
+	
+	<Vendors> 
+	</Vendors>
+	
+
+
+	<GrindArea>
+	<TargetMinLevel>90</TargetMinLevel> // Target minimum level mob
+	<TargetMaxLevel>101</TargetMaxLevel> // Target maximum level mob
+	<Factions>99999</Factions> 
+   
+	<Hotspots> 
+		<Hotspot X="4654.437" Y="1235.661" Z="122.2019" />
+		<Hotspot X="4586.721" Y="1279.529" Z="133.6519" />
+		<Hotspot X="4505.668" Y="1316.441" Z="145.0312" />
+		<Hotspot X="4562.341" Y="1385.514" Z="124.1911" />
+		<Hotspot X="4601.104" Y="1444.585" Z="124.1703" />
+		<Hotspot X="4521.641" Y="1468.227" Z="137.1542" />
+		<Hotspot X="4594.953" Y="1528.705" Z="133.997" />
+		<Hotspot X="4630.563" Y="1532.281" Z="130.5798" />
+		<Hotspot X="4666.815" Y="1450.467" Z="138.6773" />
+		<Hotspot X="4702.956" Y="1418.89" Z="138.2362" />
+		<Hotspot X="4680.131" Y="1361.915" Z="128.2729" />
+		<Hotspot X="4685.137" Y="1317.858" Z="122.0592" />
+		<Hotspot X="4697.134" Y="1257.738" Z="122.098" />
+	</Hotspots>
+	</GrindArea>
+</HBProfile>

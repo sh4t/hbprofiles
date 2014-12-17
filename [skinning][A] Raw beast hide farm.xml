@@ -1,0 +1,110 @@
+<HBProfile creator="Don" version="1.4.5">
+<Name>Raw beast farming</Name>
+
+<MinLevel>90</MinLevel>
+<MaxLevel>101</MaxLevel>
+
+<MinDurability>0.3</MinDurability>
+<MinFreeBagSlots>2</MinFreeBagSlots>
+
+<MailGrey>false</MailGrey>
+<MailWhite>true</MailWhite>
+<MailGreen>true</MailGreen>
+<MailBlue>true</MailBlue>
+<MailPurple>true</MailPurple>
+<SellGrey>true</SellGrey>
+<SellWhite>false</SellWhite>
+<SellGreen>false</SellGreen>
+<SellBlue>false</SellBlue>
+<SellPurple>false</SellPurple>
+
+   <Vendors>
+       <Vendor Name="Taarvos" Entry="80998" Type="Repair" X="1283.873" Y="34.70486" Z="75.61648" />
+   </Vendors>
+
+   <Mailboxes>
+       <Mailbox Name="Mailbox" X="1923.274" Y="299.2899" Z="88.96642"/>
+   </Mailboxes>
+
+<QuestOrder>
+<CustomBehavior File="FlyTo" Land="True" X="1428.995" Y="70.0564" Z="65.73231" />
+<While Condition="true" >
+<If Condition="(Me.FreeBagSlots &gt; 2) || (Me.LowestDurabilityPercent &gt; 0.3)" >
+			
+
+
+
+<If Condition="HasItem(110610)" >
+<CustomBehavior File="Message" Text="Combinate Raw Beast Hide Scraps" LogColor="Purple" />
+<CustomBehavior File="Misc\RunLua" Lua="UseItemByName(110610)" CollectCount="10" />
+</If>
+
+
+<If Condition="HasItem(110609)" >
+<CustomBehavior File="Message" Text="Created Raw Beast Hide" LogColor="Purple" />
+</If>
+
+
+			
+<CustomBehavior File="UserSettings" LootMobs="True" SkinMobs="True" UseFlightPaths="True" PullDistance="100" />
+<SetGrindArea>
+<GrindArea>
+<TargetMinLevel>89</TargetMinLevel>
+<TargetMaxLevel>101</TargetMaxLevel>
+<MobIds>82452, </MobIds> 
+					
+<Hotspots>
+<Hotspot X="1489.749" Y="91.96086" Z="62.19934" />
+<Hotspot X="1455.197" Y="33.7761" Z="58.59281" />
+<Hotspot X="1429.536" Y="-33.43678" Z="66.00848" />
+<Hotspot X="1402.47" Y="-80.44185" Z="75.9075" />
+<Hotspot X="1368.771" Y="-84.52958" Z="79.25732" />
+<Hotspot X="1373.247" Y="-178.1613" Z="53.165" />
+<Hotspot X="1380.321" Y="-228.7331" Z="42.73787" />
+<Hotspot X="1363.27" Y="-269.4916" Z="35.98479" />
+<Hotspot X="1332.061" Y="-246.8144" Z="44.06652" />
+<Hotspot X="1334.612" Y="-228.6255" Z="44.89486" />
+<Hotspot X="1310.836" Y="-171.2928" Z="74.72725" />
+<Hotspot X="1341.623" Y="-157.5406" Z="65.5885" />
+<Hotspot X="1346.088" Y="-106.7007" Z="76.88334" />
+<Hotspot X="1301.989" Y="-78.0258" Z="78.87772" />
+<Hotspot X="1329.701" Y="-1.905579" Z="79.15848" />
+<Hotspot X="1429.919" Y="-12.6284" Z="65.30523" />
+<Hotspot X="1433.366" Y="63.51973" Z="65.02843" />
+<Hotspot X="1350.453" Y="67.98179" Z="73.74897" />
+<Hotspot X="1307.634" Y="18.16852" Z="80.08427" />
+<Hotspot X="1290.839" Y="-49.02051" Z="77.60805" />
+<Hotspot X="1290.598" Y="-108.1885" Z="71.38339" />
+<Hotspot X="1259.154" Y="-182.2644" Z="52.36681" />
+<Hotspot X="1286.972" Y="-248.4057" Z="32.12504" />
+<Hotspot X="1313.034" Y="-289.173" Z="14.9974" />
+<Hotspot X="1371.407" Y="-315.1817" Z="11.52048" />
+<Hotspot X="1412.88" Y="-305.3119" Z="22.44303" />
+<Hotspot X="1413.086" Y="-258.685" Z="32.8257" />
+<Hotspot X="1407.552" Y="-213.4939" Z="41.48257" />
+<Hotspot X="1390.553" Y="-159.1882" Z="52.44573" />
+<Hotspot X="1322.009" Y="-133.4655" Z="71.96111" />
+<Hotspot X="1390.589" Y="-95.10641" Z="75.0378" />
+<Hotspot X="1429.944" Y="-31.15549" Z="66.05773" />
+<Hotspot X="1349.062" Y="-0.9179382" Z="77.0685" />
+<Hotspot X="1280.265" Y="-51.59827" Z="76.19301" />
+<Hotspot X="1311.903" Y="-82.15885" Z="81.1058" />
+<Hotspot X="1369.081" Y="-64.96121" Z="77.74947" />
+<Hotspot X="1432.069" Y="-3.650623" Z="63.93272" />
+<Hotspot X="1328.07" Y="112.65" Z="72.31" />
+<Hotspot X="1293.70" Y="168.74" Z="57.79" />
+</Hotspots>
+					
+</GrindArea>
+</SetGrindArea>
+<GrindTo Nav="Fly" Condition="(Me.FreeBagSlots &lt;= 2) || (Me.LowestDurabilityPercent &lt; 0.3) || (!Me.HasAura(&quot;Potion of Luck&quot;) &amp;&amp; HasItem(93351)) ||
+(HasItem(87391))" GoalText="Farming" />
+</If>
+<If Condition="(Me.FreeBagSlots &lt;= 2) || (Me.LowestDurabilityPercent &lt;= 0.3)" >
+<CustomBehavior File="FlyTo" Land="True" X="-259.5399" Y="592.5469" Z="167.5479" />
+<CustomBehavior File="ForceSetVendor" DoMail="True" DoSell="True" DoRepair="True" />
+<CustomBehavior File="FlyTo" Land="True" X="1659.636" Y="1683.12" Z="428.7497" />
+</If>
+</While>
+</QuestOrder>
+</HBProfile>
